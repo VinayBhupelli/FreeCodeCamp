@@ -1,4 +1,5 @@
 // To upload to git use the following commands
+// First commit then push
 git remote add origin https://github.com/VinayBhupelli/FreeCodeCamp.git
 git branch -M main
 git push -u origin main
@@ -97,3 +98,4 @@ we just need to type "npm install"
 // we will be using a package Named as "nodemon" which refresh the browser everytime code is saved
 npm i nodemon -D (or)--save-dev
 -D (or) --save-dev => tells that it is dev dependency
+
