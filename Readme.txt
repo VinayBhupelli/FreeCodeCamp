@@ -99,3 +99,16 @@ we just need to type "npm install"
 npm i nodemon -D (or)--save-dev
 -D (or) --save-dev => tells that it is dev dependency
 
+In package.json under scripts=>
+type => "start":"node app.js"
+then in terminal type "npm start (or) npm run start" 
+which will run "node app.js"
+
+also write "dev":"nodemon app.js"
+
+to uninstall a package
+npm uninstall packageName
+example: npm uninstall bootstrap
+
+to install globally
+npm install -g nodemon
