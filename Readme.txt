@@ -87,3 +87,8 @@ in order to clone the git link
 git clone git@${repo link}
 as there as dependencies(node_modules) folder
 we just need to type "npm install"
+
+// instead of running "node app.js" again again with changes of code
+// we will be using a package Named as "nodemon" which refresh the browser everytime code is saved
+npm i nodemon -D (or)--save-dev
+-D (or) --save-dev => tells that it is dev dependency
