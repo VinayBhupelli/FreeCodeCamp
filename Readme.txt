@@ -1,3 +1,8 @@
+// To upload to git use the following commands
+git remote add origin https://github.com/VinayBhupelli/FreeCodeCamp.git
+git branch -M main
+git push -u origin main
+
 Install Node from Their Official Website
 then run "node --version" in terminal it should give you version
 
