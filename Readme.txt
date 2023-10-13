@@ -112,3 +112,22 @@ example: npm uninstall bootstrap
 
 to install globally
 npm install -g nodemon
+
+create react app using the below code without installing globally
+npx create-react app my-app
+
+version:
+4.17.20
+if 4 changes then it is major change
+if 17 changes then it is minor change backward compatible
+if 20 changes then it is bug fix
+
+The event loop is what allows Node.js to perform non-blocking I/O operations 
+— despite the fact that JavaScript is single-threaded 
+— by offloading operations to the system kernel whenever possible.
+— It is complex topic there will be dedicated videos on this also
+
+
+the requests are coming in we register the requests, instead of executing the callbacks 
+right away it effectively gets put at the end of the line and execute immediate code 
+then when there is no immediate code to run then we execute the callbacks 
