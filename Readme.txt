@@ -131,3 +131,42 @@ The event loop is what allows Node.js to perform non-blocking I/O operations
 the requests are coming in we register the requests, instead of executing the callbacks 
 right away it effectively gets put at the end of the line and execute immediate code 
 then when there is no immediate code to run then we execute the callbacks 
+
+blocking code is not used as it is a synchronous one
+it also stops other requests also
+example if about page has a double for loop
+then when about and homepage are accessed one by one 
+about page gets loaded continously but homepage keeps on loading and waiting for 
+about to complete its task
+we use asynchronous code because it doesnt stop other requests
+
+Events:
+Event driven programming
+Used Heavily in Node.js
+
+streams: are used to read and write sequentially basically we have to handle and manipulate
+streaming data for example continous source or big data file streams come in real life handy 
+
+4 types of streams:
+Writable 
+Readable
+Duplex
+Transform
+
+The variable is not good enough if the data is large enough(readFile)
+solution is readStream Option
+
+Completed with Section 3
+Now we Can now try to create some servers
+
+Everytime we enter a url we are requesting the web browser
+and server serve us with the resources as a response
+
+this is done using http protocol and these are called http messages
+
+servers are computers who make resources available all the time
+
+Port is communication endpoint.
+for HTTP port 80
+
+Response.end() is used to send all the files like headers and body 
